@@ -1,8 +1,8 @@
 package com.intiformation.exception;
 
-public class notEnoughStockException {
+public class notEnoughStockException extends Exception {
 	
 	public notEnoughStockException() {
-		System.err.println("Pas assez stock exception instanciée");
+		System.err.println("Pas assez stock");
 	}
 }

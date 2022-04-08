@@ -1,8 +1,8 @@
 package com.intiformation.exception;
 
-public class nbMedicamentNegException {
+public class nbMedicamentNegException extends Exception {
 
 	public nbMedicamentNegException() {
-		System.err.println("Nombre médicament négatif exception instanciée");
+		System.err.println("Entrée nombre négatif");
 	}
 }
